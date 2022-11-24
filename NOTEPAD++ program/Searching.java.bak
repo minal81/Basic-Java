@@ -1,0 +1,30 @@
+import java.util.*;
+class Searching
+{
+	public static void  main(String Arg[])
+	{
+		int[] Arr=new int[5];
+		
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the 5 values for sorting");
+		for(int i=0;i<5;i++)
+		{
+		Arr[i]=sc.nextInt();
+		}
+		System.out.println("enter the values for searching");
+		int S=sc.nextInt();
+		
+		for(int i=0;i<5;i++)
+		{
+			if( Arr[i]== S )
+			{
+				System.out.println("Number is found");
+			}	
+		}
+		
+		System.out.println("Number is not Found");
+			
+}
+}		
+		

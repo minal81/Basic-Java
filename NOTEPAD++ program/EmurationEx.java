@@ -1,0 +1,28 @@
+class EmurationEx
+{
+public enum Season1{winter,spring,fall, mansoon}
+/*enum direction
+		{
+		north,south,east,west;
+		}
+		public static void main(String arg[])
+		{
+			for(Season1 s:Season1.values())
+			{
+			System.out.println(s);
+			}
+			//System.out.println(Season1.valueOf("winter").ordinal());
+			//direction d=direction.south;
+			//System.out.println(d);
+			for(direction d:direction.values())
+			{
+			System.out.println(d);
+			}
+		*/
+int Integer='12';
+char String	='I';	
+		}
+		
+		
+		
+}

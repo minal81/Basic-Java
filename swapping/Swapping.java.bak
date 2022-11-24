@@ -1,0 +1,20 @@
+class Swapping
+{
+int a= 10;
+int b=15;
+int temp;
+
+ System.out.println("Before Swapping A:- " +a);
+ System.out.println("Before Swapping B:- " +b);
+  public void Swap()
+  {
+ 
+ temp= a;
+ a=b;
+ b= temp;
+ 
+ System.out.println("after Swapping A:- " +a);
+ System.out.println("after Swapping B:- " +b);
+  }
+ 
+ }
